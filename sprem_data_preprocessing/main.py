@@ -85,10 +85,10 @@ def convert_nested_dataset_to_rgb(input_dir, output_dir, target_size=(224, 224))
 # Kullanım örneği
 if __name__ == "__main__":
     # Veri setinizin ana dizini
-    dataset_dir = r"C:\Users\gulme\OneDrive\Desktop\bahardonemi\bitirme\Data\split_data"
+    dataset_dir = r"C:..."
 
     # İşlenmiş görüntülerin kaydedileceği dizin
-    processed_dir = r"C:\Users\gulme\OneDrive\Desktop\bahardonemi\bitirme\Data\sonuc1"
+    processed_dir = r"C:..."
 
     # Tüm görüntüleri 224x224 boyutuna getir ve RGB formata dönüştür
     convert_nested_dataset_to_rgb(dataset_dir, processed_dir, target_size=(224, 224))
