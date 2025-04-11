@@ -1,4 +1,4 @@
-# Sperm Morfolojisi Görüntüleri için Veri Artırma (Data Augmentation)
+# Sperm Morfolojisi Görüntüleri için Veri Artırma (Data Augmentation) 
 
 Bu belge, sperm morfolojisi görüntülerini çeşitli teknikler kullanarak artırmak için geliştirilen Python aracının kapsamlı bir açıklamasını içermektedir. Bu araç, medikal görüntüler için özel olarak tasarlanmış veri artırma teknikleri kullanarak, sınırlı sayıdaki görüntü setini genişletmenize yardımcı olur.
 
@@ -226,3 +226,6 @@ Artırılmış görüntüler, dosya adlarında `_aug_` eki ve kullanılan tekni�
 
 Bu script özellikle .bmp formatı için tasarlanmıştır, ancak küçük değişikliklerle diğer formatları da destekleyebilir. OpenCV, jpg, png, tiff gibi birçok formatı destekler.
 
+# Veri Ön İşleme
+
+Veri ön işleme aşamasında, tüm görüntüler önce **RGB** formatına dönüştürülmüştür. Ardından, her bir görüntü, modelin giriş boyutlarına uyum sağlaması için **224x224** piksel boyutuna yeniden boyutlandırılmıştır. Bu işlemler, veri setinin tutarlı bir şekilde işlenmesini ve modelin verimli bir şekilde eğitilmesini sağlamaktadır.
