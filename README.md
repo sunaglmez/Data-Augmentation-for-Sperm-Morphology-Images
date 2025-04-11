@@ -152,7 +152,6 @@ WARN:0@1.072] global loadsave.cpp:268 cv::findDecoder imread_('C:\Users\kullanı
 
 1. **Dosya Yollarını Değiştirme**: 
    - Klasör ve dosya isimlerinde Türkçe karakter kullanmayın
-   - Örneğin: `C:\Users\kullanıcı\Desktop\4.sınıf\BİTİRME\` yerine `C:\Users\kullanici\Desktop\4.sinif\BITIRME\` kullanın
 
 2. **Görüntüleri Kopyalama**: 
    - Tüm görüntüleri ASCII karakterler içeren basit bir klasöre kopyalayın
